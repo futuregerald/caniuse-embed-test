@@ -1,0 +1,30 @@
+{
+  "name": "caniuse-embed",
+  "version": "1.2.2",
+  "description": "The embed for caniuse",
+  "main": "caniuse-embed.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp",
+    "functions:install": "netlify-lambda install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ireade/caniuse-embed.git"
+  },
+  "author": "Ire Aderinokun",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/ireade/caniuse-embed/issues"
+  },
+  "homepage": "https://github.com/ireade/caniuse-embed",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglifyjs": "^0.6.2",
+    "gulp-util": "^3.0.8",
+    "netlify-lambda": "^1.6.3"
+  }
+}
